@@ -1,3 +1,6 @@
+
+---
+
 add_rules("mode.debug")
 
 set_languages("cxx11")
