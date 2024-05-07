@@ -40,7 +40,7 @@ int main() {
         }
     }
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

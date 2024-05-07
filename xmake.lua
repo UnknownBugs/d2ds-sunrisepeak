@@ -1,6 +1,3 @@
-
----
-
 add_rules("mode.debug")
 
 set_languages("cxx11")
@@ -111,8 +108,6 @@ task("dslings")
 
         local checker_pass = false
         local start_target = option.get("start_target")
-
-        print(start_target)
 
         local dslings_checker_pass_config = {
             ["0.dslings-0"]     = checker_pass,
@@ -307,6 +302,6 @@ MoreInfo: https://github.com/Sunrisepeak/DStruct\
                 usage = "xmake dslings [options] [arguments]",
                 description = "exercises-code compile-time & runtime checker",
                 options = {
-                    {'s', "start_target", "kv", "0.dslings-0", "check from start_target"},
+                    {'s', "start_target", "kv", "dslings", "check from start_target"},
                 }
             })

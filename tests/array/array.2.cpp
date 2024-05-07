@@ -48,10 +48,10 @@ int main() {
     }
 
     d2ds_assert(BigFiveTest::self_assignment());
-    d2ds_assert(BigFiveTest::destructor());
+    d2ds_assert(BigFiveTest::destructor(true));
     //BigFiveTest::print_status();
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }
