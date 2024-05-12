@@ -184,7 +184,7 @@ task("dslings")
             print(output)
             print("====================")
 
-            print("\nBook: https://sunrisepeak.github.io/d2ds")
+            print("\nHomepage: https://github.com/Sunrisepeak/d2ds-courses")
         end
 
         -- main start
@@ -211,7 +211,7 @@ task("dslings")
         local skip = true
         for _, name in pairs(sorted_targets) do
 
-            if skip and string.find(name, start_target) then
+            if skip and (name == start_target or string.find(name, start_target)) then
                 skip = false;
             end
 
@@ -292,7 +292,7 @@ task("dslings")
         local bingo = "\
             Bingo! 🎉🎉🎉\n \
     You have completed all exercises\n \
-MoreInfo: https://github.com/Sunrisepeak/DStruct\
+Next: https://github.com/Sunrisepeak/dstruct\
 "
 
         print_info("D2DS", total_targets, total_targets, "...", bingo, true)
