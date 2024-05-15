@@ -21,7 +21,9 @@ int main() {
 
     d2ds_assert_eq(mVal.get(), 2);
 
-    //D2DS_WAIT
+    HONLY_LOGI_P("Hello D2DS!");
+
+    D2DS_WAIT
 
     return 0;
 }
