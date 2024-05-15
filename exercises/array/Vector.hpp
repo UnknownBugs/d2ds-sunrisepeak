@@ -153,8 +153,9 @@ public:
         mCapacity_e = dsObj.mCapacity_e;
         mDataPtr_e = (T *) Alloc::allocate(mCapacity_e * sizeof(T));
         for (int i = 0; i < mSize_e; i++) {
-            //new (mDataPtr_e + i) T( dsObj.mDataPtr_e[i] );
-            mDataPtr_e[i] = dsObj.mDataPtr_e[i];
+            //new (mDataPtr_e + i) T();
+            //mDataPtr_e[i] = dsObj.mDataPtr_e[i];
+            new (mDataPtr_e + i) T(dsObj.mDataPtr_e[i]);
         }
 
         return *this;

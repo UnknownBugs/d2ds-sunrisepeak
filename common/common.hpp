@@ -109,7 +109,6 @@ public:
         }
 
         Obj & operator=(const Obj &obj) {
-            get_test_data_e().mDestructor++;
             get_test_data_e().mCopyAssignment = true;
             if (this == &obj) get_test_data_e().mSelfAssignment = true;
             return *this;

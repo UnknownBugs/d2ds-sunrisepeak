@@ -27,7 +27,6 @@ int main() {
         d2ds_assert(BigFiveTest::copy_constructor());
 
         //D2DS_RETURN
-
         objArr3 = objArr2;
         //d2ds_assert(BigFiveTest::copy_assignment());
 

@@ -21,7 +21,7 @@ int main() {
     auto begin = range.begin();
     auto end = range.end();
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

@@ -20,7 +20,7 @@ int main() {
     d2ds::Box<int> intBox;
     d2ds::Box<dstruct::String> stringBox;
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

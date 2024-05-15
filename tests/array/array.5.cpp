@@ -24,7 +24,7 @@ int main() {
         val++;
     }
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }
