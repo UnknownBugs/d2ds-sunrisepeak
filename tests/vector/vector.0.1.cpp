@@ -60,7 +60,7 @@ int main() {
     d2ds::Vector<char, StackMemAllocator> charVecByStack;
     d2ds::Vector<double> doubleVec;
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

@@ -26,7 +26,7 @@ int main() {
         d2ds::Vector<BigFiveTest::Obj> objArr3 = objArr1;
         d2ds_assert(BigFiveTest::copy_constructor());
 
-        D2DS_RETURN
+        //D2DS_RETURN
 
         objArr3 = objArr2;
         //d2ds_assert(BigFiveTest::copy_assignment());
@@ -34,9 +34,10 @@ int main() {
         objArr1 = objArr1;
     }
 
+    d2ds_assert(BigFiveTest::self_assignment());
     d2ds_assert(BigFiveTest::destructor(true));
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

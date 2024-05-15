@@ -60,7 +60,7 @@ int main() {
     d2ds_assert(BigFiveTest::self_assignment());
     d2ds_assert(BigFiveTest::destructor(true));
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

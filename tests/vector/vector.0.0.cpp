@@ -23,7 +23,7 @@ int main() {
     d2ds::Vector<int> intVec;
     d2ds_assert(sizeof(intVec) >= sizeof(DataMember));
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }
