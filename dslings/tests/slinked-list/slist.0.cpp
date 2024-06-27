@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // slist.0.cpp - readonly
+=======
+// slinked-list.0.cpp - readonly
+>>>>>>> 5ff135a (slink-list core)
 //
 // 描述:
 //   定义SLinkedList及其数据成员
