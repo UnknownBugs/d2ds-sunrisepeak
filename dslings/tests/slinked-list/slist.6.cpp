@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// slist.6.cpp - readonly
-=======
 // slinked-list.6.cpp - readonly
->>>>>>> 5ff135a (slink-list core)
 //
 // 描述:
 //   链表的"随机访问/下标索引访问用法模拟"

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// slist.7.cpp - readonly
-=======
 // slinked-list.7.cpp - readonly
->>>>>>> 5ff135a (slink-list core)
 //
 // 描述:
 //   实现链表的尾部增删 - push_back / _pop_back

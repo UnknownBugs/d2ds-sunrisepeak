@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// slist.5.cpp - readonly
-=======
 // slinked-list.5.cpp - readonly
->>>>>>> 5ff135a (slink-list core)
 //
 // 描述:
 //   实现链表的常用函数 - front/back
