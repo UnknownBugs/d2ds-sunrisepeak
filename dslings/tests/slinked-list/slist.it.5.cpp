@@ -37,7 +37,7 @@ int main() {
 
     std::cout << std::endl;
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

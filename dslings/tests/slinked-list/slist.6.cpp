@@ -21,7 +21,7 @@ int main() {
         d2ds_assert_eq(intList[i], i);
     }
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

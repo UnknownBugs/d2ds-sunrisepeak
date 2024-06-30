@@ -32,7 +32,7 @@ int main() {
 
     d2ds_assert(intList.empty());
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }

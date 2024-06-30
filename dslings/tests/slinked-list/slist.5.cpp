@@ -20,7 +20,7 @@ int main() {
     d2ds_assert_eq(intList.front(), 1);
     d2ds_assert_eq(intList.back(), 3);
 
-    D2DS_WAIT
+    //D2DS_WAIT
 
     return 0;
 }
